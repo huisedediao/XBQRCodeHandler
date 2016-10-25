@@ -6,8 +6,8 @@
 <br><br>
 
 实例代码：<br>
-#import "ViewController.h"<br>
-#import "XBQRCodeHandler.h"<br>
+\#import "ViewController.h"<br>
+\#import "XBQRCodeHandler.h"<br>
 <br>
 @interface ViewController ()<XBQRCodeHandlerDelegate><br>
 {<br>
@@ -17,7 +17,7 @@
 <br>
 @implementation ViewController<br>
 <br>
-- (void)viewDidLoad {<br>
+\- (void)viewDidLoad {<br>
     [super viewDidLoad];<br>
 <br>
     //如果非透明模式，摄像机展示的画面为这里设置的rect<br>
