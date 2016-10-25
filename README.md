@@ -39,7 +39,7 @@
 }<br>
 @end<br>
 <br><br><br><br><br>
-##识别二维码<br>
-\//参数1：二维码图片<br>
-\//参数2：完成识别后的回调<br>
+##识别图片中的二维码<br>
+//参数1：二维码图片<br>
+//参数2：完成识别后的回调<br>
 \+ (NSString *)recognizedQRCodeOfImage:(UIImage *)image complete:(void (^)(NSString * messageString,BOOL success))complete;<br>
