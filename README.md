@@ -1,11 +1,13 @@
 # XBQRCodeHandler
 基于某位同道的代码添加扫描区域，抱歉不记得是哪位的了。。。。
 <br>
-效果图：<br>
+##效果图：<br>
 ![image](https://github.com/huisedediao/XBQRCodeHandler/raw/master/exam.png)<br>
 <br><br>
 
 实例代码：<br>
+<br>
+##扫描二维码
 \#import "ViewController.h"<br>
 \#import "XBQRCodeHandler.h"<br>
 <br>
@@ -36,3 +38,8 @@
     NSLog(@"%@",messageString);<br>
 }<br>
 @end<br>
+<br><br><br><br><br>
+##识别二维码<br>
+\//参数1：二维码图片<br>
+\//参数2：完成识别后的回调<br>
+\+ (NSString *)recognizedQRCodeOfImage:(UIImage *)image complete:(void (^)(NSString * messageString,BOOL success))complete;<br>
