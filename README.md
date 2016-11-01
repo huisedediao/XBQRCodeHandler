@@ -5,8 +5,7 @@
 ![image](https://github.com/huisedediao/XBQRCodeHandler/raw/master/exam.png)<br>
 <br><br>
 
-实例代码：<br>
-<br>
+
 
 ## 扫描二维码
 <pre>
